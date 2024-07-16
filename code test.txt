@@ -1,0 +1,5 @@
+distance = int(input("How far is your destination in km?"))
+fare = 20
+number_of_people = int(input("How many people are included?"))
+price = ((fare+distance)*number_of_people)
+print(price)
